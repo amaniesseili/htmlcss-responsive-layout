@@ -59,6 +59,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap);
+    padding-bottom: 1rem;
 }
 
 .col {
@@ -68,6 +69,7 @@ section {
     padding-right: 1rem;
     background-color: var(--box-color);
     border-radius: 20px;
+    
 
 }
 
@@ -204,6 +206,22 @@ h4{
     color: black;
 }
 
+/*--------  section we are committed expert partners ------ */
+.centered-text{
+    text-align: center;
+}
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.circular-square{
+    width: 20%;
+    margin-top: 1rem;
+    border-radius: 90px;
+    
+
+}
 
 
 /*--------  section Benefits of working with us ------ */
