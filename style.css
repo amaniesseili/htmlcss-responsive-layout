@@ -26,15 +26,15 @@ img {
 }
 
 .container-flex{
-    background-color : #60a6e7;
+    /* background-color : #60a6e7; */
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
 .container-xl {
-    background-color : #5fab79;
-    width: 1140px;
+    /* background-color : #5fab79; */
+    width: 920px;
     margin:  auto;
     padding: 5px;
 }
@@ -53,7 +53,7 @@ section {
 .container-s {
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #5fab79;
+    /* background-color: #5fab79; */
 }
 .row {
     display: flex;
@@ -238,6 +238,11 @@ il space between del container-flex fatto nel nav? */
 h1{
     color: var(--bg-color);
     font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 3rem;
 }
 .btn-more{
     background-color: var(--bg-color);
