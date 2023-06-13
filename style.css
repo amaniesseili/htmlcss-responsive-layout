@@ -216,16 +216,39 @@ h2{
 }
 
 .circular-square{
-    width: 20%;
-    margin-top: 1rem;
+    width: 30%;
     border-radius: 90px;
-    
+    align-items: center;
+}
 
+
+/* perche quando metto la proprieta giu prende cmq
+il space between del container-flex fatto nel nav? */
+.container-flex-horizontal-col{
+    background-color : #60a6e7;
+    display: flex;
+    width: 100%;
+    padding-top: 2rem;
+    align-items: center;
 }
 
 
 /*--------  section Benefits of working with us ------ */
 
+h1{
+    color: var(--bg-color);
+    font-size: 40px;
+}
+.btn-more{
+    background-color: var(--bg-color);
+    margin-bottom: 1rem;
+}
+.benefits h4{
+    color: var(--bg-color);
+}
+.benefits p{
+    color: grey;
+}
 
 
 /*----------------- section About Us ---------------- */
