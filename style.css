@@ -55,6 +55,17 @@ section {
     padding-right: 100px;
     /* background-color: #5fab79; */
 }
+
+.container-xs {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.container-xxs {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -300,12 +311,55 @@ h1{
 
 
 /*--------  section Simple, transparent Pricing------ */
-
-
+.Pricing h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.Pricing h1{
+    color:#f9b44c;
+    /* text-align: center; */
+    margin-bottom: 0.5rem;
+    font-size: 50px;
+}
+.Pricing {
+    text-align: center;
+}
+.btn-Get-strarted{
+    background-color:white;
+    margin-bottom: 1rem;
+    font-size: 10px;
+}
+/* .centered-text{
+    text-align: center;
+}   perche nn si alenano in centro */
+/* .Pricing{
+    margin: auto;
+} */
 
 
 /*--------------------- Site Footer ---------------- */
+.bg-color-footer{
+    background-color: var(--footer-color);
+    margin-top: -2rem;
 
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+/* perche l'altra p che contiene gli a nn si e allenata in centro? */
+
+.footer a{
+    color: var(--bg-color);
+    
+}
+.footer .row .col{
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: var(--footer-color);
+}
 
 
 
